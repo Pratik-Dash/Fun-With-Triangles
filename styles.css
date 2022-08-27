@@ -112,12 +112,14 @@ button:hover{
     margin: 1rem;
     transition: .7s;
     font-size: large;
+   
 }
 .wrong{
     color: #FF5733;
     margin: 1rem;
     transition: .7s;
     font-size: large;
+   
     
 }
 .quiz-form{

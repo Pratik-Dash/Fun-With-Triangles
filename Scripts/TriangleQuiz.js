@@ -10,6 +10,7 @@ submitButton.addEventListener("click",()=>{
     
    
     output.innerText = "Thank You for atending the quiz. Your score is "+score;
+    output.className = "success"
    
     
     
