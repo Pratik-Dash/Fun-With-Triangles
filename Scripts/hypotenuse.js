@@ -5,7 +5,7 @@ const output = document.querySelector(".output");
 button.addEventListener("click",()=>{
 
     var hypotenuse = calculateHypotenuse(Number(sides[0].value),Number(sides[1].value))
-    output.innerText = "The lenght of the hypotenuse is "+hypotenuse+"."
+    output.innerText = "The length of the hypotenuse is "+hypotenuse+"."
     output.className = "success"
 })
 
