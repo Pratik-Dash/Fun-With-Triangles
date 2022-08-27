@@ -8,9 +8,11 @@ checkButton.addEventListener("click",()=>{
 
     if(sum==180){
         output.innerText = "Yaaayy! your angles form a Triangle."
+        output.className = "success"
     }else{
        
         output.innerText = "Uh Oh! your angles do not form a Triangle."
+        output.className = "wrong"
     }
 })
 

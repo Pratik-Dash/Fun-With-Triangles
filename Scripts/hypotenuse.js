@@ -1,11 +1,12 @@
 const sides = document.querySelectorAll(".sides");
-const button = document.querySelector(".calculate");
+const button = document.querySelector(".calculate-hypo");
 const output = document.querySelector(".output");
 
 button.addEventListener("click",()=>{
 
     var hypotenuse = calculateHypotenuse(Number(sides[0].value),Number(sides[1].value))
     output.innerText = "The lenght of the hypotenuse is "+hypotenuse+"."
+    output.className = "success"
 })
 
 function calculateHypotenuse(side1,side2)
