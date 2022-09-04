@@ -1,5 +1,5 @@
 const quizform = document.querySelector(".quiz-form")
-const correctAnswers = ["90°","EquiLateral Triangle"];
+const correctAnswers = ["90°","EquiLateral","Acute","EquiLateral","180°"];
 const submitButton = document.querySelector(".submit")
 const output = document.querySelector(".output");
 const formData = new FormData(quizform);

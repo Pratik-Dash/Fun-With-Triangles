@@ -145,9 +145,29 @@ button:hover{
     color: var(--accent);
     cursor: pointer;
 }
+.info{
+    border:2px solid var(--accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
 .credit{
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
     color: rgb(78, 76, 76);
     text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li a{
+    color: var(--accent);
+    font-size: large;
 }
 

@@ -4,9 +4,17 @@ const output = document.querySelector(".output");
 
 button.addEventListener("click",()=>{
 
-    var hypotenuse = calculateHypotenuse(Number(sides[0].value),Number(sides[1].value))
+    var side1 = Number(sides[0].value)
+    var side2 = Number(sides[1].value)
+    if(side1>0 && side2>0){
+
+    var hypotenuse = calculateHypotenuse(side1,side2)
     output.innerText = "The length of the hypotenuse is "+hypotenuse+"."
     output.className = "success"
+    }else{
+        output.innerText = "Sides cannot be zero or negative."
+        output.className = "wrong"
+    }
 })
 
 function calculateHypotenuse(side1,side2)
