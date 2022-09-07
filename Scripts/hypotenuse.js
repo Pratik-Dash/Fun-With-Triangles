@@ -9,7 +9,7 @@ button.addEventListener("click",()=>{
     if(side1>0 && side2>0){
 
     var hypotenuse = calculateHypotenuse(side1,side2)
-    output.innerText = "The length of the hypotenuse is "+hypotenuse+"."
+    output.innerText = "The length of the hypotenuse is "+hypotenuse+"cm."
     output.className = "success"
     }else{
         output.innerText = "Sides cannot be zero or negative."
@@ -19,6 +19,6 @@ button.addEventListener("click",()=>{
 
 function calculateHypotenuse(side1,side2)
 {
-    var hypotenuse = Math.sqrt(side1*side1+side2*side2).toPrecision(3);
+    var hypotenuse = Math.sqrt(side1*side1+side2*side2).toFixed(2);
     return hypotenuse
 }
