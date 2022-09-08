@@ -170,4 +170,14 @@ li a{
     color: var(--accent);
     font-size: large;
 }
+.credit-link{
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+}
+.credit-link:hover{
+    cursor: pointer;
+    border-bottom: 1px solid var(--accent);
+    color: white;
+    transition: .5s;
+}
 
